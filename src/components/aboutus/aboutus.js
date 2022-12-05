@@ -3,7 +3,7 @@ import './about.css'
 const About=()=>{
     return (
         <>
-        <h2 className='about-heading' >ABOUT US</h2> 
+        <h2 className='about-heading' >ABOUT US ALT SPACE</h2> 
         <br/>  
         <div className='part1' id='about'>
         <div className='img1'><img src={require('./image2.gif?auto=compress')} className='allimg1'/><img src={require('./image3.gif?auto=compress')} className='allimg1'/></div>

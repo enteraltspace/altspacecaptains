@@ -15,7 +15,7 @@ function Team(){
     
     </span>
     <span className="team-span">
-    <img src={require("./image2.png?auto=compress")} className="team-image"/>
+    <img src={require("./image5.png?auto=compress")} className="team-image"/>
     <span className="team-name">
         < h3 className="team-text">
         T.N.Rao
@@ -36,7 +36,7 @@ function Team(){
     </span>
     </span><br/>
     <span className="team-span">
-    <img src={require("./image5.png?auto=compress")} className="team-image"/>
+    <img src={require("./image2.png?auto=compress")} className="team-image"/>
     <span className="team-name">
         < h3 className="team-text">
         Dhanush Waran
@@ -52,7 +52,7 @@ function Team(){
         < h3 className="team-text">
         Sachin
         </ h3>
-        <h5 className="team-text">Commu coo. </h5>
+        <h5 className="team-text">Community</h5>
       
         <a href="https://www.linkedin.com/in/sachin-s-5724841b4/" target="_blank"><img src={require('./linkedinlogo.png')} className="linkedin-logo"/></a>
     </span>
@@ -64,7 +64,7 @@ function Team(){
         < h3 className="team-text">
         Kiran
         </ h3>
-        <h5 className="team-text">Web3 Mar.</h5>
+        <h5 className="team-text">Marketer</h5>
         <a href="https://www.linkedin.com/in/kirangowtham/" target="_blank"><img src={require('./linkedinlogo.png?auto=compress')} className="linkedin-logo"/></a>
     </span>
     </span>

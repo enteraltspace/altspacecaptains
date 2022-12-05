@@ -38,12 +38,12 @@ function Footer() {
                 </a></div>
             <ul class="list-inline">
                 <li class="list-inline-item" onClick={home}><a href="#">Home</a></li>
-                <li class="list-inline-item" onClick={about}><a href="#">About Us</a></li>
+                <li class="list-inline-item" onClick={about}><a href="#">About</a></li>
                 <li class="list-inline-item" onClick={home}><a href="#">Mint</a></li>
                 <li class="list-inline-item" onClick={team}><a href="#">Team</a></li>
-                <li class="list-inline-item" onClick={faq}><a href="#">Faq</a></li>
+                <li class="list-inline-item" onClick={faq}><a href="#">FAQ</a></li>
             </ul>
-            <p class="copyright">Alt Space © 2022</p>
+            <p class="copyright">©Alt Space 2022</p>
         </footer>
 
     </>)

@@ -31,10 +31,10 @@
    display: inline-block;
    text-align: left;
    font-family: harmattan;
-font-style: normal;
-text-align: justify;
-text-transform: capitalize;
-
+}.about-text{
+    color: white;
+    font-size: 20px;
+    font-family: harmattan;
 }.allimg1{
     margin: 13%;
     margin-top: 0;

@@ -3,7 +3,7 @@ import './about.css'
 const About=()=>{
     return (
         <>
-        <h2 className='about-heading' >ABOUT US ALT SPACE</h2> 
+        <h2 className='about-heading' >ABOUT US</h2> 
         <br/>  
         <div className='part1' id='about'>
         <div className='img1'><img src={require('./image2.gif?auto=compress')} className='allimg1'/><img src={require('./image3.gif?auto=compress')} className='allimg1'/></div>
@@ -12,12 +12,12 @@ const About=()=>{
         </div>
        
         <div className="part2">
-        <p>The holders of ALT Space Captains NFTs can participate in an exclusive forum that is designed to connect Web3 builders from all around the globe. This is a great opportunity to network and collaborate with others who are passionate about the same things that you are!</p>
+        <h4 className='about-text'> The holders of ALT Space Captains NFTs can participate in an exclusive forum that is designed to connect Web3 builders from all around the globe. This is a great opportunity to network and collaborate with others who are passionate about the same things that you are!</h4>
 
-<p>Whether you manage a Web3 product, a service startup, a blockchain company, or a de-fi solution, you can grab our Captains NFT to engage with similar players in the ALT Space.</p>
+<h4 className='about-text'>Whether you manage a Web3 product, a service startup, a blockchain company, or a de-fi solution, you can grab our Captains NFT to engage with similar players in the ALT Space.</h4>
 
-<p>Doing so will allow you to discuss commonalities and learn from one another in order to continue driving the industry forward!
-</p></div>
+<h4 className='about-text'>Doing so will allow you to discuss commonalities and learn from one another in order to continue driving the industry forward!
+</h4></div>
    
 </>
         

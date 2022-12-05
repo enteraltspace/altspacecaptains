@@ -14,7 +14,7 @@
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
 }.team-image{
-    width: 50%;
+    width: 45%;
     display: inline-block;
     border: 3px solid ;
  border-image: linear-gradient(to right, #3FFF47
@@ -23,12 +23,12 @@
 }
 .team-text{
     font-size: 1vw;
-    margin-left: -10%;
+    margin-left: -15%;
     font-weight: 600;
 }.team-name{
     float: right;
     text-align: left;
-    font-family: harmattan;
+    font-family: gos;
 
 }.linkedin-logo{
     cursor: pointer;

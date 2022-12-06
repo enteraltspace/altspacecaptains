@@ -2,7 +2,6 @@
     /* @import url('https://fonts.googleapis.com/css?family=Hind:300,400&display=swap');
 */
      .faq-heading{
-       
         text-transform: uppercase;
         background: linear-gradient(to right, #3FFF47 0%, #3FFFD1
         100%);
@@ -13,12 +12,9 @@
         font-weight: 700;
      }
      summary {
-        font-size: 1.25rem;
-        font-weight: 600;
         background-color: transparent;
         color: white;
         width: 80%;
-       
         padding: 1rem;
         margin-bottom: 2%;
         outline: none;

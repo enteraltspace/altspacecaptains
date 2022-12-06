@@ -23,7 +23,7 @@ background-size: cover;
   pointer-events: none;
 }@font-face{
   font-family: harmattan;
-  src: url(./Harmattan.ttf);
+  src:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
 }
 @font-face {
   font-family: gos;

@@ -37,12 +37,11 @@ function Footer() {
             <a href="https://twitter.com/enteraltspace" target="_blank"> <img src={require('./twitter.png')}/>
                 </a></div>
             <ul class="list-inline">
-                <li class="list-inline-item"><a onClick={home}>Home</a></li>
-                <li class="list-inline-item"><a onClick={about}>About</a></li>
-                <li class="list-inline-item"><a onClick={home}>Mint</a></li>
-                <li class="list-inline-item"><a onClick={team}>Team</a></li>
-                <li class="list-inline-item"><a onClick={faq}>FAQ</a></li>
-                <li class="list-inline-item"><a href='http://enteraltspace.com/' target="_blank">Company</a></li>
+                <li class="list-inline-item" onClick={home}><a href="#">Home</a></li>
+                <li class="list-inline-item" onClick={about}><a href="#">About</a></li>
+                <li class="list-inline-item" onClick={home}><a href="#">Mint</a></li>
+                <li class="list-inline-item" onClick={team}><a href="#">Team</a></li>
+                <li class="list-inline-item" onClick={faq}><a href="#">FAQ</a></li>
             </ul>
             <p class="copyright">©Alt Space 2022</p>
         </footer>

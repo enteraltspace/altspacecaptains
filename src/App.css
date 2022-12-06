@@ -1,10 +1,10 @@
 .App {
   text-align: center;
-  background: linear-gradient(
-    179.93deg,
-    #000418 61.69%,
-    rgba(63, 255, 209, 0.5) 351.99%
-  );
+  background-image: url("./bkg.jpeg");
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+background-size: cover;
   width: 100%;
   position: absolute;
   top: 0;
@@ -15,7 +15,7 @@
   min-height: 100%;
   color: white;
   align-content: center;
-  font-family: gos;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .App-logo {

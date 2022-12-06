@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-image: url("./bkg.jpeg");
+  background-image: #111111 url("./bkg.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;

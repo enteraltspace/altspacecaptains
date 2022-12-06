@@ -42,6 +42,7 @@ function Footer() {
                 <li class="list-inline-item" onClick={home}><a href="#">Mint</a></li>
                 <li class="list-inline-item" onClick={team}><a href="#">Team</a></li>
                 <li class="list-inline-item" onClick={faq}><a href="#">FAQ</a></li>
+                <li class="list-inline-item"><a onClick={faq}>FAQ</a></li>
             </ul>
             <p class="copyright">©Alt Space 2022</p>
         </footer>

@@ -7,7 +7,7 @@ function Roadmap(){
     </h2>
     <div className="main-div">
     <div className="circular-div">
-<h3>Stage 1</h3>
+<h3>1</h3>
 </div>
 <div className="rectangular-div">
 <p className="roadmap-text">Website Development</p>
@@ -15,13 +15,13 @@ function Roadmap(){
 <p className="roadmap-text">Private Sale Open</p>
 <p className="roadmap-text">Mint NFTs</p>
 <p className="roadmap-text">Build Community</p>
-
-
+           
 </div>
-    </div>
-    <div className="main-div">
-    <div className="circular-div">
-<h3>Stage 2</h3>
+</div>
+<div className="main-div">
+<div className="circular-div">
+           
+<h3>2</h3>
 </div>
 <div className="rectangular-div">
 <p className="roadmap-text">Marketplace Listings</p>
@@ -31,7 +31,8 @@ function Roadmap(){
     </div>
     <div className="main-div">
     <div className="circular-div">
-<h3>Stage 3</h3>
+           
+<h3>3</h3>
 </div>
 <div className="rectangular-div">
 <p className="roadmap-text">NFT Staking</p>

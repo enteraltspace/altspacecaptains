@@ -2,7 +2,7 @@ import React from "react";
 import './team.css'
 function Team(){
     return(<div className="team" id="team">
-    <h1 className="team-heading">Meet our Team</h1>
+    <h2 className="team-heading">Meet our Team</h2>
     <span className="team-span">
     <img src={require("./image1.png?auto=compress")} className="team-image"/>
     <span className="team-name">

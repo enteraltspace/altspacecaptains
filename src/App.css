@@ -1,15 +1,16 @@
 .App {
   text-align: center;
   background-image: url("./bkg.jpeg");
-background-repeat: no-repeat;
-background-position: center;
-background-attachment: fixed;
-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
   width: 100%;
   position: absolute;
   top: 0;
   left: 0;
   height: auto;
+  
   /* Preserve aspet ratio */
   min-width: 100%;
   min-height: 100%;
@@ -22,7 +23,8 @@ background-size: cover;
 .App-logo {
   height: 40vmin;
   pointer-events: none;
-}@font-face{
+}
+@font-face{
   font-family: harmattan;
   src:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
 }

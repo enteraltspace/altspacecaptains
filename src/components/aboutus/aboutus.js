@@ -12,12 +12,12 @@ const About=()=>{
         </div>
        
         <div className="part2">
-        <div className='about-text'> The holders of ALT Space Captains NFTs can participate in an exclusive forum that is designed to connect Web3 builders from all around the globe. This is a great opportunity to network and collaborate with others who are passionate about the same things that you are!</div>
-
-<div className='about-text'>Whether you manage a Web3 product, a service startup, a blockchain company, or a de-fi solution, you can grab our Captains NFT to engage with similar players in the ALT Space.</div>
-
-<div className='about-text'>Doing so will allow you to discuss commonalities and learn from one another in order to continue driving the industry forward!
-</div></div>
+        <div className='about-text'> ALT Space is a parallel universe that has unique characters called Captains, Champs, Cartoons and more. You can unlock characters by minting them, and start collaborating for your Web3 initiatives in multiple ways.
+<br/>
+The holders of ALT Space Captains NFTs represent experienced players in Web3 community. They will have special previledges to interact, hire talent, collaborate and network with people who share a similar vision.
+<br/>
+</div>
+</div>
    
 </>
         

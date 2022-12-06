@@ -16,7 +16,7 @@
   min-height: 100%;
   color: white;
   align-content: center;
-  font-family: 'Segoe UI Semilight', Tahoma, Arial, sans-serif;
+  font-family: Tahoma, Arial, sans-serif, 'Segoe UI Semilight';
   line-height: 2em;
 }
 

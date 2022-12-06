@@ -2,12 +2,11 @@
     width: 40%; 
     display: inline-block;
     vertical-align: top;
-}.about-heading{
+}
+.about-heading{
     margin-top: 10%;
-    
     text-transform: uppercase;
-	background: linear-gradient(to right, #3FFF47 0%, #3FFFD1
-    100%);
+	background: linear-gradient(to right, #3FFF47 0%, #3FFFD1 100%);
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
     font-weight: 700;
@@ -25,17 +24,15 @@
 
 .part2{
    width: 40%;
-   font-size: 20px;
    margin-right:10%;
    margin-left: 0;
    display: inline-block;
    text-align: left;
-   
-}.about-text{
-    color: white;
-    font-size: 16px;
-    
-}.allimg1{
+}
+.about-text{
+    color: white;    
+}
+.allimg1{
     margin: 13%;
     margin-top: 0;
     width: 100%;
@@ -54,8 +51,8 @@
         width: 90%;
         text-align: left;
         margin: 5%;
-        font-size: 15px;
-    }.about-heading{
+    }
+    .about-heading{
         margin-top: 10%;
     }
 }

@@ -15,7 +15,8 @@ background-size: cover;
   min-height: 100%;
   color: white;
   align-content: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Arial, sans-serif;
+  font-weight: normal;
 }
 
 .App-logo {

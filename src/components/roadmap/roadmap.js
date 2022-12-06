@@ -2,12 +2,12 @@ import React from "react";
 import './roadmap.css'
 function Roadmap(){
     return(<>
-    <h1 className="roadmap-heading" id="roadmap">
+    <h21 className="roadmap-heading" id="roadmap">
         ROADMAP
-    </h1>
+    </h2>
     <div className="main-div">
     <div className="circular-div">
-<h1>1</h1>
+<h3>Stage 1</h3>
 </div>
 <div className="rectangular-div">
 <p className="roadmap-text">Website Development</p>
@@ -21,7 +21,7 @@ function Roadmap(){
     </div>
     <div className="main-div">
     <div className="circular-div">
-<h1>2</h1>
+<h3>Stage 2</h3>
 </div>
 <div className="rectangular-div">
 <p className="roadmap-text">Marketplace Listings</p>
@@ -31,7 +31,7 @@ function Roadmap(){
     </div>
     <div className="main-div">
     <div className="circular-div">
-<h1>3</h1>
+<h3>Stage 3</h3>
 </div>
 <div className="rectangular-div">
 <p className="roadmap-text">NFT Staking</p>

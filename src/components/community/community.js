@@ -4,9 +4,9 @@ function Community(){
     return(<>
 
     <div className="community-div1">
-        <h1 className="community-text">
+        <h2 className="community-text">
             JOIN OUR COMMUNITY
-        </h1>
+        </h2>
         <a href=" https://discord.gg/ru6g942RKe" target="_blank"><button className="community-button">JOIN DISCORD</button></a>
     </div>
     <div className="community-div1">

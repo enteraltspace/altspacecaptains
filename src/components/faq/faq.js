@@ -30,7 +30,7 @@ function Faq(){
 
     return(< >
     {}
-     <h1 className="faq-heading" id="faq">FAQ</h1>
+     <h2 className="faq-heading" id="faq">FAQ</h2>
     <details open>
   <summary> What is ALT Space Captains NFT?</summary>
   <div class="faq__content">

@@ -2,7 +2,7 @@ import React from "react";
 import './roadmap.css'
 function Roadmap(){
     return(<>
-    <h21 className="roadmap-heading" id="roadmap">
+    <h2 className="roadmap-heading" id="roadmap">
         ROADMAP
     </h2>
     <div className="main-div">

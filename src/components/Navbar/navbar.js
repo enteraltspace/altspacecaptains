@@ -53,7 +53,7 @@ export default function Navbar() {
         <a onClick={team}>Team</a>
         </li>
         <li>
-        <a>Mint</a>
+        <a onClick={home}>Mint</a>
         </li>
         <li>
        

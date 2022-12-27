@@ -2,7 +2,6 @@ import React from"react"
 import "./community.css"
 function Community(){
     return(<>
-
     <div className="community-div1">
         <h2 className="community-text">
             JOIN OUR COMMUNITY

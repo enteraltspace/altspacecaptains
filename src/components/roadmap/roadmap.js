@@ -10,11 +10,11 @@ function Roadmap(){
 <h3>1</h3>
 </div>
 <div className="rectangular-div">
-<p className="roadmap-text"><strong>PHASE 1 - Completed</strong></p>
-<p className="roadmap-text">&checkmark; Website Development</p>
-<p className="roadmap-text">&checkmark; Create NFT Collection</p>
-<p className="roadmap-text">&checkmark; Partnership with Global Events</p>
-<p className="roadmap-text">&checkmark; Private Sale Open - 1000 NFTs</p>          
+<div className="roadmap-text"><strong>PHASE 1 - Completed</strong></div>
+<div className="roadmap-text">✓ Website Development</div>
+<div className="roadmap-text">✓ Create NFT Collection</div>
+<div className="roadmap-text">✓ Partnership with Global Events</div>
+<div className="roadmap-text">✓ Private Sale Open - 1000 NFTs</div>          
 </div>
 </div>
 <div className="main-div">

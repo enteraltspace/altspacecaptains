@@ -23,11 +23,11 @@ function Roadmap(){
 <h3>2</h3>
 </div>
 <div className="rectangular-div">
-<p className="roadmap-text"><strong>PHASE 2</strong></p>
-<p className="roadmap-text">Launch of B2B Web3 Roster</p>
-<p className="roadmap-text">Launch the Wall of Fame</p>
-<p className="roadmap-text">Exclusive Portal for Collaboration</p>
-<p className="roadmap-text">Organize Online Summits</p>
+<div className="roadmap-text"><strong>PHASE 2</strong></div>
+<div className="roadmap-text">Launch of B2B Web3 Roster</div>
+<div className="roadmap-text">Launch the Wall of Fame</div>
+<div className="roadmap-text">Exclusive Portal for Collaboration</div>
+<div className="roadmap-text">Organize Online Summits</div>
 </div>
     </div>
     <div className="main-div">
@@ -36,11 +36,11 @@ function Roadmap(){
 <h3>3</h3>
 </div>
 <div className="rectangular-div">
-<p className="roadmap-text"><strong>PHASE 3</strong></p>
-<p className="roadmap-text">NFT Staking</p>
-<p className="roadmap-text">Airdrop NFTs of New Collections</p>
-<p className="roadmap-text">New Utilities for NFT holders</p>
-<p className="roadmap-text">Interact in Metaverse</p>
+<div className="roadmap-text"><strong>PHASE 3</strong></div>
+<div className="roadmap-text">NFT Staking</div>
+<div className="roadmap-text">Airdrop NFTs of New Collections</div>
+<div className="roadmap-text">New Utilities for NFT holders</div>
+<div className="roadmap-text">Interact in Metaverse</div>
 </div>
     </div>
     

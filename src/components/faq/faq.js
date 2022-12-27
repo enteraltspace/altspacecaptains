@@ -28,8 +28,7 @@ function Faq(){
         
 
 
-    return(< >
-    {}
+    return(<>
      <h2 className="faq-heading" id="faq">FAQ</h2>
     <details open>
   <summary> What is ALT Space Captains NFT?</summary>

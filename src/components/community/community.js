@@ -11,7 +11,6 @@ function Community(){
     <div className="community-div1">
         <img src={require("./circles.png")} className="community-img1"/>
     </div>
-    <img src={require("./Captains-Tokenomics.png")}/>
     </>)
 }
 export default Community

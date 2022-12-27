@@ -23,7 +23,7 @@ function Roadmap(){
 <h3>2</h3>
 </div>
 <div className="rectangular-div">
-<div className="roadmap-text"><strong>PHASE 2</strong></div>
+<div className="roadmap-text"><strong>PHASE 2 - May 2023</strong></div>
 <div className="roadmap-text">Launch of B2B Web3 Roster</div>
 <div className="roadmap-text">Launch the Wall of Fame</div>
 <div className="roadmap-text">Exclusive Portal for Collaboration</div>
@@ -36,7 +36,7 @@ function Roadmap(){
 <h3>3</h3>
 </div>
 <div className="rectangular-div">
-<div className="roadmap-text"><strong>PHASE 3</strong></div>
+<div className="roadmap-text"><strong>PHASE 3 - Dec 2023</strong></div>
 <div className="roadmap-text">NFT Staking</div>
 <div className="roadmap-text">Airdrop NFTs of New Collections</div>
 <div className="roadmap-text">New Utilities for NFT holders</div>

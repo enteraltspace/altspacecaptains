@@ -4,9 +4,9 @@ function Community(){
     return(<>
     <div className="community-div1">
         <h2 className="community-text">
-            JOIN OUR COMMUNITY
+            Tokenomics
         </h2>
-        // <a href=" https://discord.gg/ru6g942RKe" target="_blank"><button className="community-button">JOIN DISCORD</button></a>
+        <a href="#"><button className="community-button">Start Minting</button></a>
         <img src={require("./tokenomics.png")} className="community-img1"/>
     </div>
     <div className="community-div1">

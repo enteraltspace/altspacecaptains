@@ -19,10 +19,7 @@
 }
 .community-heading{
 	text-transform: uppercase;
-	background: linear-gradient(to right, #3FFF47 0%, #3FFFD1
-	100%);
-	background-clip: text;
-	-webkit-text-fill-color: transparent;
+	color: #ffffff;
 	font-weight: 700;
 }
 @media screen and (max-width: 840px){

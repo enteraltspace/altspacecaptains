@@ -21,7 +21,6 @@ function Team(){
         T.N.Rao
         </h3 >
         <div className="team-text">Investor</div>
-        <a href="#" target="_blank"><img src={require('./linkedinlogo.png?auto=compress')} className="linkedin-logo"/></a>
     </span>
     </span>
     <span className="team-span">
@@ -42,8 +41,7 @@ function Team(){
         Dhanush Waran
         </h3>
         <div className="team-text">Designer
-</div>
-<a href="#" target="_blank"><img src={require('./linkedinlogo.png?auto=compress')} className="linkedin-logo"/> </a>
+    </div>
     </span>
     </span>
     <span className="team-span">

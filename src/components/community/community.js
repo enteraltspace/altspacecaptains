@@ -3,7 +3,7 @@ import "./community.css"
 function Community(){
     return(<>
     <div className="community-div1">
-        <h2 className="community-text">
+        <h2 className="community-heading">
             Tokenomics
         </h2>
         <a href="#"><button className="community-button">Start Minting</button></a>

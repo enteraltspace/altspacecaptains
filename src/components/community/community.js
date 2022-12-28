@@ -6,7 +6,8 @@ function Community(){
         <h2 className="community-text">
             JOIN OUR COMMUNITY
         </h2>
-        <a href=" https://discord.gg/ru6g942RKe" target="_blank"><button className="community-button">JOIN DISCORD</button></a>
+        // <a href=" https://discord.gg/ru6g942RKe" target="_blank"><button className="community-button">JOIN DISCORD</button></a>
+        <img src={require("./tokenomics.png")} className="community-img1"/>
     </div>
     <div className="community-div1">
         <img src={require("./circles.png")} className="community-img1"/>

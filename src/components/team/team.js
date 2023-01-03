@@ -48,11 +48,9 @@ function Team(){
     <img src={require("./imag4.png?auto=compress")} className="team-image"/>
     <span className="team-name">
         <h3 className="team-text">
-        Sachin
+        Anush
         </h3>
-        <div className="team-text">Community</div>
-      
-        <a href="https://www.linkedin.com/in/sachin-s-5724841b4/" target="_blank"><img src={require('./linkedinlogo.png')} className="linkedin-logo"/></a>
+        <div className="team-text">Community</div>      
     </span>
     </span>
 
@@ -60,10 +58,9 @@ function Team(){
     <img src={require("./image7.png?auto=compress")} className="team-image"/>
     <span className="team-name">
         <h3 className="team-text">
-        Kiran
+        Krishna
         </h3>
         <div className="team-text">Marketer</div>
-        <a href="https://www.linkedin.com/in/kirangowtham/" target="_blank"><img src={require('./linkedinlogo.png?auto=compress')} className="linkedin-logo"/></a>
     </span>
     </span>
     

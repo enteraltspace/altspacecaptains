@@ -64,7 +64,7 @@ function Faq(){
 <details>
   <summary> Who is behind ALT Space?</summary>
   <div class="faq__content">
-    <p>The ALT Space is founded by Seshu along with its investor T.N.Rao. Dhanush and Gireesh are our young & dynamic souls taking charge of design & development, while Sachin and Kiran handle the last mile.
+    <p>The ALT Space is founded by Seshu along with its investor T.N.Rao. Dhanush and Gireesh are our young & dynamic souls taking charge of design & development, while Anusha and Krishna handle the last mile interaction.
 </p>
 <p>Seshu is an alumnus of University of Texas at Dallas, and Stanford Graduate School of Business. He is a parallel entrepreneur who is bullish about technology and works primarily on Marketing-tech, Edu-tech, and Web 3.0.
 </p>

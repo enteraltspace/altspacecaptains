@@ -45,10 +45,10 @@ function Team(){
     </span>
     </span>
     <span className="team-span">
-    <img src={require("./imag4.png?auto=compress")} className="team-image"/>
+    <img src={require("./image4.png?auto=compress")} className="team-image"/>
     <span className="team-name">
         <h3 className="team-text">
-        Anush
+        Anusha
         </h3>
         <div className="team-text">Community</div>      
     </span>

@@ -23,10 +23,10 @@ function Roadmap(){
 <h3>2</h3>
 </div>
 <div className="rectangular-div">
+<div className="roadmap-text">Token-Gated Community Forum</div>
 <div className="roadmap-text"><strong>PHASE 2 - May 2023</strong></div>
 <div className="roadmap-text">Launch of Elevator Reels</div>
 <div className="roadmap-text">Launch the Wall of Fame</div>
-<div className="roadmap-text">Exclusive Portal for Collaboration</div>
 <div className="roadmap-text">Organize Online Summits</div>
 </div>
     </div>

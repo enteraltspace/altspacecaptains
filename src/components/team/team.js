@@ -30,8 +30,7 @@ function Team(){
         Gireesh
         </h3>
         <div className="team-text">Developer</div>
-        <a href="https://www.linkedin.com/in/gireeshredy
-" target="_blank"><img src={require('./linkedinlogo.png?auto=compress')} className="linkedin-logo"/></a>
+        <a href="https://www.linkedin.com/in/gireeshredy/" target="_blank"><img src={require('./linkedinlogo.png?auto=compress')} className="linkedin-logo"/></a>
     </span>
     </span><br/>
     <span className="team-span">
@@ -40,8 +39,8 @@ function Team(){
         <h3 className="team-text">
         Dhanush Waran
         </h3>
-        <div className="team-text">Designer
-    </div>
+        <div className="team-text">Designer</div>
+        <a href="https://www.linkedin.com/in/dhanush-waran-143537228/" target="_blank"><img src={require('./linkedinlogo.png?auto=compress')} className="linkedin-logo"/></a>
     </span>
     </span>
     <span className="team-span">
@@ -50,7 +49,8 @@ function Team(){
         <h3 className="team-text">
         Anusha
         </h3>
-        <div className="team-text">Community</div>      
+        <div className="team-text">Community</div>
+        <a href="https://www.linkedin.com/in/anusha-karthick-547bb051/" target="_blank"><img src={require('./linkedinlogo.png?auto=compress')} className="linkedin-logo"/></a>
     </span>
     </span>
 

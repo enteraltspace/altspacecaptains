@@ -41,7 +41,7 @@ function Faq(){
     <p>⭐ COLLABORATE & GROW - Be part of an exclusive community to collaborate and find talent to work with. <br/>
     - Exclusive Community Forum (Token Gated) </p>
 
-    <p>⭐ ACCESS TO VIRTUAL SUMMITS - Gain access to virtual meetings and summits. </p>
+    <p>⭐ ACCESS VIRTUAL SUMMITS - Gain entry to virtual meetings and tech summits. </p>
   </div>
 </details>
 <details>

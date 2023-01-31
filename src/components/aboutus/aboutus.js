@@ -12,11 +12,10 @@ const About=()=>{
         </div>
        
         <div className="part2">
-        <div className='about-text'> ALT Space is a parallel universe that has unique characters called Captains, Champs, Cartoons and more. You can unlock characters by minting them, and start collaborating for your Web3 initiatives in multiple ways.
-<br/><br/>
-The holders of ALT Space Captains NFTs represent experienced players in Web3 ecosystem. They will have special privileges to interact, hire talent, collaborate and network with people who share a similar vision.
-<br/><br/>
-Whether you manage a Web3 product, a service startup, a blockchain company, or a de-fi solution, you can grab our Captains NFT to engage with similar players in the ALT Space.
+        <div className='about-text'>
+        <p>At ALT Space, you will find exclusive token-gated communities for Web3 founders and developers. You gain entry by minting the necessary NFTs - Captains, Creators, Champs, and more.</p>
+        <p>The holders of ALT Space <strong>Captains NFTs</strong> represent experienced players in Web3 ecosystem. They will have special privileges to interact, hire talent, collaborate and network with people who share a similar vision.</p>
+        <p>Whether you manage a Web3 product, a service startup, a blockchain company, or a de-fi solution, you can grab our Captains NFT to engage with similar players in the ALT Space.</p>
 </div>
 </div>
    

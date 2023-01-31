@@ -14,6 +14,7 @@ function Roadmap(){
 <div className="roadmap-text">✓ Website Development</div>
 <div className="roadmap-text">✓ Create NFT Collection</div>
 <div className="roadmap-text">✓ Partnership with Global Events</div>
+<div className="roadmap-text">✓ Create Board of Advisors</div>
 <div className="roadmap-text">✓ Private Sale Open - 1000 NFTs</div>          
 </div>
 </div>

@@ -31,9 +31,21 @@ function Faq(){
     return(<>
      <h2 className="faq-heading" id="faq">FAQ</h2>
     <details open>
-  <summary> What is ALT Space Captains NFT?</summary>
+  <summary> What are the benefits of Captains NFT?</summary>
   <div class="faq__content">
     <p>It is 1 of unique 9,999 NFTs on the Polygon blockchain that will have future utilities for Web3 Builders.</p>
+    <p>GET VISIBILITY & PROMOTION <br/>
+    Get far and wide reach about your Startup / project. <br/>
+    - Wall of Fame (Interactive Grid) <br/>
+    - Elevator Reels (Pitch Videos)
+    </p>
+
+    <p>COLLABORATE & GROW <br/>
+    Be part of an exclusive community to collaborate and find talent to work with. <br/>
+    - Exclusive Community Forum (Token Gated) </p>
+
+    <p>ACCESS TO VIRTUAL SUMMITS <br/>
+    Gain access to virtual meetings and summits. </p>
   </div>
 </details>
 <details>

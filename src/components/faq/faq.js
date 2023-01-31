@@ -33,13 +33,12 @@ function Faq(){
     <details open>
   <summary> What are the benefits of Captains NFT?</summary>
   <div class="faq__content">
-    <p>It is 1 of unique 9,999 NFTs on the Polygon blockchain that will have future utilities for Web3 Builders.</p>
     <p>⭐ GET VISIBILITY & PROMOTION - Get far and wide reach about your Startup / project. <br/>
-    - Wall of Fame (Interactive Grid) and Elevator Reels (Pitch Videos)
+    Be featured in "Wall of Fame" Grid and "Elevator Reels" Board
     </p>
 
     <p>⭐ COLLABORATE & GROW - Be part of an exclusive community to collaborate and find talent to work with. <br/>
-    - Exclusive Community Forum (Token Gated) </p>
+    Interact at the exclusive token-gated community forum. </p>
 
     <p>⭐ ACCESS VIRTUAL SUMMITS - Gain entry to virtual meetings and tech summits. </p>
   </div>

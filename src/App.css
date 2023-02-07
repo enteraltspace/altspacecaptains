@@ -28,7 +28,7 @@
 }
 @font-face{
   font-family: harmattan;
-  src:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  src: Tahoma, Arial, sans-serif, 'Segoe UI', Geneva, Verdana;
 }
 @font-face {
   font-family: gos;

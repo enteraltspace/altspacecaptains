@@ -17,7 +17,7 @@
   min-height: 100%;
   color: white;
   align-content: center;
-  font-family: Tahoma, Arial, sans-serif, 'Segoe UI Semilight';
+  font-family: Arial, sans-serif, 'Segoe UI Semilight';
   font-size: 105%;
   line-height: 2em;
 }
@@ -28,7 +28,7 @@
 }
 @font-face{
   font-family: harmattan;
-  src: Tahoma, Arial, sans-serif, 'Segoe UI', Geneva, Verdana;
+  src: Arial, sans-serif, 'Segoe UI', Geneva, Verdana;
 }
 @font-face {
   font-family: gos;

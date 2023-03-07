@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Onramper from "../../onramper/onramper";
 import './mint.css'
 import { MintButton } from "./mintButton";
-import Timer from "./timer";
+// import Timer from "./timer";
 function Mint(){
     const [value,setvalue]=useState(1)
 //     const [launchText , setLaunchText] =  useState("Launch Day-30 Nov 2022")

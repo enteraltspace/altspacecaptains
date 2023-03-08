@@ -8,11 +8,6 @@ import Web3Modal from "web3modal";
 export function MintButton({ value }) {
   var mintValue = value;
   const MintNow = async () => {
-    console.log(abi);
-
-    console.log(contractAddress);
-    console.log(mintValue);
-
     const WalletConnectProvider = window.WalletConnectProvider.default;
     let providerOptions = {
       walletconnect: {
@@ -27,7 +22,6 @@ export function MintButton({ value }) {
         },
       },
     };
-    console.log("function called");
     const web3Modal = new Web3Modal({
       network: "mainnet", // optional
       cacheProvider: true, // optional
@@ -40,7 +34,6 @@ export function MintButton({ value }) {
     const contractInstance = new web3.eth.Contract(abi, contractAddress);
     const mintPrice = await contractInstance.methods.mintPrice().call();
     account.then((result) => {
-      console.log(result[0]);
       const balance = web3.eth.getChainId();
 
       balance.then((r) => {
@@ -60,9 +53,7 @@ export function MintButton({ value }) {
           web3.eth
             .sendTransaction(txTransfer)
             .on("transactionHash", function (hash) {
-              if (
-                window.confirm("Ok to go to polygonscan, Cancel to Stay here")
-              ) {
+              if (window.confirm("Ok to view the transaction")) {
                 window.open(`https://polygonscan.com/tx/${hash}`, "_blank");
               }
 

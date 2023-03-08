@@ -56,7 +56,7 @@ export function MintButton({value}){
                   }
                   
                   let approve=web3.eth.sendTransaction(txTransfer);
-                  approve.then((transactionHash) => {
+         approve.then((transactionHash) => {
     alert("NFT Mint Successful with Transaction hash: " + transactionHash);
   })
   .catch((error) => {

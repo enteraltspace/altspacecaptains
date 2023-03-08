@@ -56,12 +56,12 @@ export function MintButton({value}){
                   }
                   
                   let approve=web3.eth.sendTransaction(txTransfer);
-         approve.then((transactionHash) => {
-    alert("NFT Mint Successful with Transaction hash: " + transactionHash);
+         approve.then((result) => {
+    alert("NFT Mint successful);
   })
-  .catch((error) => {
-    console.error(error);
-  });
+               .catch((error) => {
+              alert(error)
+                             });
                   else{
                       alert("Please connect to polygon chain")
                   }

@@ -37,11 +37,12 @@ export function MintButton({value}){
            const provider = await web3Modal.connect();
           const web3 =new Web3(provider);
           const account=web3.eth.getAccounts()
+           const contractInstance= new web3.eth.Contract(abi,contractAddress)
+           const mintPrice = await contractInstance.methods.mintPrice().call();
           account.then((result)=>{
               console.log(result[0])
               const balance=web3.eth.getChainId()
-              const contractInstance= new web3.eth.Contract(abi,contractAddress)
-              const mintPrice = await contractInstance.methods.mintPrice().call();
+             
               balance.then((r)=>{
                   if (r==137) {
                     const contractInstance= new web3.eth.Contract(abi,contractAddress)

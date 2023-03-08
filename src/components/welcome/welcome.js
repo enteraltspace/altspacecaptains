@@ -14,7 +14,7 @@ function Welcome(){
         The holders of Captains NFTs can participate in an exclusive token-gated lounge that brings together Web3 builders under 1 roof. 
         Keep in mind that all Captains have caps, and that's what makes them different from everyone else in ALT Space.</p>
         
-        <p style="background-color: #666666">Timeline: We are having our <strong>private sale</strong> now with reduced pricing. The <strong>public launch</strong> will be on Mar 23, 2023.</p>
+        <p>Timeline: We are having our <strong>private sale</strong> now with reduced pricing. The <strong>public launch</strong> will be on Mar 23, 2023.</p>
         </div>
         <br/>
     </div>

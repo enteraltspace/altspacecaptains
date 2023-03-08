@@ -40,7 +40,8 @@ export function MintButton({value}){
           account.then((result)=>{
               console.log(result[0])
               const balance=web3.eth.getChainId()
-              
+              const contractInstance= new web3.eth.Contract(abi,contractAddress)
+              const mintPrice = await contractInstance.methods.mintPrice().call();
               balance.then((r)=>{
                   if (r==137) {
                     const contractInstance= new web3.eth.Contract(abi,contractAddress)
@@ -50,15 +51,15 @@ export function MintButton({value}){
                     //  gas: web3.utils.toHex(web3.utils.toWei( '.028' , 'gwei' )),
                      maxPriorityFeePerGas:40000000000,
                       maxFeePerGas:250000000000,
-                     value:value*0.1*10e17,
+                     value:value*mintPrice,
 //                      gas:21000,
                       data: contractInstance.methods.mint(mintValue).encodeABI()
                   }
                   
                   let approve=web3.eth.sendTransaction(txTransfer);
-                        approve.then((result)=>{
-                      console.log(result)
-                      alert(result)
+                  approve.then((result)=>{
+                      let message = `NFT Mint Sucessfull https://polygonscan.com/tx/${result.transactionHash}`;
+                      alert(message);
                   }).catch((e)=>{
                       console.error(e)
                       alert(e.message)

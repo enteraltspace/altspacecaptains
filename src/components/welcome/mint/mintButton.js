@@ -53,7 +53,7 @@ export function MintButton({ value }) {
           web3.eth
             .sendTransaction(txTransfer)
             .on("transactionHash", function (hash) {
-              if (window.confirm("Ok to view the transaction")) {
+              if (window.confirm("NFT mint successful. Click, Ok to view the transaction")) {
                 window.open(`https://polygonscan.com/tx/${hash}`, "_blank");
               }
 

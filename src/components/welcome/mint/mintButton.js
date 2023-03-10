@@ -60,7 +60,7 @@ export function MintButton({ value }) {
               // alert(`NFT Mint Successful https://polygonscan.com/tx/${hash}`);
             })
             .on("error", function (error) {
-              alert(error);
+              alert(error.message);
             });
           // let approve = web3.eth.sendTransaction(txTransfer);
           //   approve

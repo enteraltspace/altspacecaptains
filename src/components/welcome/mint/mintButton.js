@@ -71,7 +71,7 @@ export function MintButton({ value }) {
           //     .catch((e) => {
           //       alert(e.message);
           //     });
-          // } else {
+           } else {
           alert("Please connect to polygon chain");
         }
       });

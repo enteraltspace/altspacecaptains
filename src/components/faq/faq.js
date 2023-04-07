@@ -32,7 +32,7 @@ function Faq() {
           <p>
             ⭐ GET VISIBILITY & PROMOTION - Get far and wide reach about your
             Startup / project. <br />
-            Be featured in "Wall of Fame" Grid and "Elevator Reels" Board
+            Be featured in "Elevator Reels" Board
           </p>
 
           <p>

@@ -1,7 +1,8 @@
 import React, { useEffect } from "react";
 import "./mintButton.css";
 import { abi, contractAddress } from "../constants.js";
-import "./data.env";
+// import "./data.env";
+
 import Web3 from "web3";
 import Web3Modal from "web3modal";
 
@@ -53,7 +54,11 @@ export function MintButton({ value }) {
           web3.eth
             .sendTransaction(txTransfer)
             .on("transactionHash", function (hash) {
-              if (window.confirm("NFT mint successful. Click, Ok to view the transaction")) {
+              if (
+                window.confirm(
+                  "NFT mint successful. Click, Ok to view the transaction"
+                )
+              ) {
                 window.open(`https://polygonscan.com/tx/${hash}`, "_blank");
               }
 
@@ -71,7 +76,7 @@ export function MintButton({ value }) {
           //     .catch((e) => {
           //       alert(e.message);
           //     });
-           } else {
+        } else {
           alert("Please connect to polygon chain");
         }
       });

@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useState } from "react";
 import "./mintButton.css";
 import { abi, contractAddress } from "../constants.js";
 // import "./data.env";
@@ -6,23 +6,52 @@ import { abi, contractAddress } from "../constants.js";
 import Web3 from "web3";
 import Web3Modal from "web3modal";
 
+const switchToPolygon = async () => {
+  try {
+    await window.ethereum.request({
+      method: "wallet_switchEthereumChain",
+      params: [{ chainId: "0x89" }], // chainId for the Polygon network
+    });
+  } catch (error) {
+    if (error.code === 4902) {
+      try {
+        await window.ethereum.request({
+          method: "wallet_addEthereumChain",
+          params: [
+            {
+              chainId: "0x89", // chainId for the Polygon network
+              chainName: "Polygon",
+              rpcUrls: ["https://rpc-mainnet.matic.network"],
+              blockExplorerUrls: ["https://polygonscan.com/"],
+            },
+          ],
+        });
+      } catch (addError) {
+        throw addError;
+      }
+    }
+  }
+};
 export function MintButton({ value }) {
-  var mintValue = value;
+  const mintValue = value;
+  const [isMinting, setIsMinting] = useState(false);
+  const [transactionReceipt, setTransactionReceipt] = useState(null);
   const MintNow = async () => {
+    setIsMinting(true);
     const WalletConnectProvider = window.WalletConnectProvider.default;
     let providerOptions = {
       walletconnect: {
         package: WalletConnectProvider,
         options: {
-          infuraId: "b50bee145172497d9576a6f79b1209aa",
-          //infuraId:'JuKirzHWDP97kprdQEkmzv0X7J8mz64emhs4Os70',
+          infuraId: process.env.REACT_APP_ALCHEMY_ID,
           chainId: 137,
           rpc: {
-            1: "https://mainnet.infura.io/v3/b50bee145172497d9576a6f79b1209aa",
+            137: process.env.REACT_APP_ALCHEMY_URL,
           },
         },
       },
     };
+
     const web3Modal = new Web3Modal({
       network: "mainnet", // optional
       cacheProvider: true, // optional
@@ -31,62 +60,71 @@ export function MintButton({ value }) {
 
     const provider = await web3Modal.connect();
     const web3 = new Web3(provider);
+
+    const chainConnected = web3.eth.getChainId();
+    if (chainConnected !== 137) {
+      await switchToPolygon();
+    }
     const account = web3.eth.getAccounts();
     const contractInstance = new web3.eth.Contract(abi, contractAddress);
     const mintPrice = await contractInstance.methods.mintPrice().call();
-    account.then((result) => {
-      const balance = web3.eth.getChainId();
 
-      balance.then((r) => {
-        if (r == 137) {
-          const contractInstance = new web3.eth.Contract(abi, contractAddress);
-          let txTransfer = {
-            from: result[0],
-            to: contractAddress,
-            //  gas: web3.utils.toHex(web3.utils.toWei( '.028' , 'gwei' )),
-            maxPriorityFeePerGas: 80000000000,
-            maxFeePerGas: 250000000000,
-            value: value * mintPrice,
-            //                      gas:21000,
-            data: contractInstance.methods.mint(mintValue).encodeABI(),
-          };
+    account.then(async (result) => {
+      const balance = await web3.eth.getBalance(result[0]);
 
-          web3.eth
-            .sendTransaction(txTransfer)
-            .on("transactionHash", function (hash) {
-              if (
-                window.confirm(
-                  "NFT mint successful. Click, Ok to view the transaction"
-                )
-              ) {
-                window.open(`https://polygonscan.com/tx/${hash}`, "_blank");
-              }
+      if (balance == 0) {
+        alert("Inadequate funds in wallet.");
+        setIsMinting(false);
+      }
 
-              // alert(`NFT Mint Successful https://polygonscan.com/tx/${hash}`);
-            })
-            .on("error", function (error) {
-              alert(error.message);
-            });
-          // let approve = web3.eth.sendTransaction(txTransfer);
-          //   approve
-          //     .then((receipt) => {
-          //       let message = `NFT Mint Sucessfull https://polygonscan.com/tx/${receipt.transactionHash}`;
-          //       alert(message);
-          //     })
-          //     .catch((e) => {
-          //       alert(e.message);
-          //     });
-        } else {
-          alert("Please connect to polygon chain");
-        }
-      });
+      console.log(mintPrice);
+      let txTransfer = {
+        from: result[0],
+        to: contractAddress,
+        //  gas: web3.utils.toHex(web3.utils.toWei( '.028' , 'gwei' )),
+        maxPriorityFeePerGas: 60000000000,
+        maxFeePerGas: 600000000000,
+        value: mintValue * mintPrice,
+        gas: 264208,
+        data: contractInstance.methods.mint(mintValue).encodeABI(),
+      };
+
+      web3.eth
+        .sendTransaction(txTransfer)
+        .on("receipt", function (receipt) {
+          if (
+            window.confirm(
+              "NFT mint Sucessful. Click, Ok to view the transaction"
+            )
+          ) {
+            window.open(
+              `https://polygonscan.com/tx/${receipt.transactionHash}`,
+              "_blank"
+            );
+          }
+
+          setTransactionReceipt(receipt);
+          setIsMinting(false);
+          // alert(`NFT Mint Successful https://polygonscan.com/tx/${hash}`);
+        })
+        .on("error", function (error, receipt) {
+          alert(error.message);
+          setTransactionReceipt(receipt);
+          setIsMinting(false);
+        });
     });
   };
   return (
     <>
-      <button className="mint-button" onClick={MintNow}>
-        Mint Now
+      <button
+        disabled={isMinting || !!transactionReceipt}
+        className="mint-button"
+        onClick={MintNow}
+      >
+        {isMinting ? "Minting..." : transactionReceipt ? "Mint" : "Mint"}
       </button>
     </>
   );
 }
+
+//export function MintButton({ value }) {

@@ -72,7 +72,7 @@ export function MintButton({ value }) {
     account.then(async (result) => {
       const balance = await web3.eth.getBalance(result[0]);
 
-      if (balance == 0) {
+      if (balance < mintPrice * mintValue) {
         alert("Inadequate funds in wallet.");
         setIsMinting(false);
       }
